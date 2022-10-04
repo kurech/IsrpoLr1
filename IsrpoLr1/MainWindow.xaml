@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IsrpoLr1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="608.969">
+        Title="MainWindow" Height="300" Width="450">
     <Grid>
         <Label Content="Введите ваш возраст:" FontSize="40" Margin="19,0,0,0"></Label>
-        <TextBox x:Name="txt" Margin="19,73,181,116" Height="80" FontSize="35"/>
-        <Button x:Name="btn" Content="Результат!" FontSize="35" Margin="19,168,181,10" Click="btn_Click"></Button>
-        <Button Margin="462,46,27,32" Content="2 okno" FontSize="35"></Button>
+        <TextBox x:Name="txt" Margin="19,75,23,114" Width="400" Height="80" FontSize="35"></TextBox>
+        <Button x:Name="btn" Content="Результат!" FontSize="35" Margin="19,168,23,10" Click="btn_Click"></Button>
     </Grid>
 </Window>
