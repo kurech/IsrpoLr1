@@ -10,6 +10,6 @@
         <Label Content="Введите ваш возраст:" FontSize="40" Margin="19,0,-53,0"></Label>
         <TextBox x:Name="txt" Margin="108,75,291,114" Height="80" FontSize="35"/>
         <Button x:Name="btn" Content="Результат!" FontSize="35" Margin="19,168,185,10" Click="btn_Click"></Button>
-        <Button Margin="447,48,0,42" Content="2 okno" FontSize="35"></Button>
+        <Button Margin="447,48,0,42" Content="2 okno" FontSize="35" x:Name="btn2" Click="btn2_Click"></Button>
     </Grid>
 </Window>

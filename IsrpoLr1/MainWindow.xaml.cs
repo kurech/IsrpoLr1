@@ -29,5 +29,11 @@ namespace IsrpoLr1
         {
             MessageBox.Show($"Вам {txt.Text} лет!!");
         }
+
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            newwindow newwindow = new newwindow();
+            newwindow.Show();
+        }
     }
 }
